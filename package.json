@@ -4,7 +4,9 @@
   "description": "Experimental port of tidalcycles to javascript",
   "main": "strudel.mjs",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "dev": "snowpack dev",
+    "build": "snowpack build"
   },
   "repository": {
     "type": "git",
@@ -28,6 +30,7 @@
     "snowpack": "^3.8.8"
   },
   "dependencies": {
+    "automation-events": "^4.0.12",
     "fraction.js": "^4.1.2"
   }
 }
